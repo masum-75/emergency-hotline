@@ -20,10 +20,12 @@
       <!-- Right -->
       <div class="flex items-center gap-4">
         <div class="flex items-center gap-1">
-          <span id="heartCount">0</span> ❤️
+          <span id="heartCount">0</span> 
+          <img src="assets/heart.png" alt="" class="w-5 h-5">
         </div>
         <div class="flex items-center gap-1">
-          <span id="coinCount">100</span> 🪙
+          <span id="coinCount">100</span> 
+          <img src="assets/coin.png" alt="coin" class="w-5 h-5">
         </div>
         <button id="copyCountBtn" class="bg-green-500 text-white px-4 py-1 rounded-lg">
           <span id="copyCount">0</span> Copy
@@ -209,6 +211,17 @@
       </div>
 
     </section>
+    <!-- History Section -->
+    <aside class="bg-white rounded-xl shadow p-4">
+      <div class="flex justify-between items-center mb-4">
+        <h2 class="font-bold text-lg flex items-center gap-2">📜 Call History</h2>
+        <button id="clearHistoryBtn" class="bg-green-500 text-white px-3 py-1 rounded-lg">Clear</button>
+      </div>
+      <ul id="historyList" class="space-y-2 text-sm text-gray-700"></ul>
+    </aside>
+
+  </main>
+
    <script src="file.js"></script>
 </body>
 </html>

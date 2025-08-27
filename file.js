@@ -49,3 +49,8 @@ document.addEventListener("click", (e) => {
     }
   }
 });
+
+// Clear History
+document.getElementById("clearHistoryBtn").addEventListener("click", () => {
+  historyList.innerHTML = "";
+});

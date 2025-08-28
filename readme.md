@@ -7,11 +7,10 @@ This project is a web application for emergency hotline services. Users can like
  <!-- Features -->
 
 - Navbar showing Heart count, Coins (default 100), Copy count
-- Hero section with gradient background, logo, title, and slogan
+- Hero section with gradient background, logo, title.
 - Emergency hotline cards containing:
   - Icon / Image  
-  - Service Name  
-  - English Name  
+  - Service Name   
   - Hotline Number  
   - Category Badge  
   -  Heart button, Copy button, Call button
@@ -19,7 +18,6 @@ This project is a web application for emergency hotline services. Users can like
 - Clear History button
 - Fully responsive for mobile devices
 
----
 
  <!-- Function -->
 
@@ -37,14 +35,14 @@ This project is a web application for emergency hotline services. Users can like
 
 1. Difference between `getElementById`, `getElementsByClassName`, and `querySelector / querySelectorAll`
    - `getElementById`: Selects a single element by ID.  
-   - `getElementsByClassName`: Selects all elements with a class (returns HTMLCollection).  
+   - `getElementsByClassName`: Selects all elements with a class.  
    - `querySelector`: Selects the first element that matches a CSS selector.  
-   - `querySelectorAll`: Selects all elements that match a CSS selector (returns NodeList).
+   - `querySelectorAll`: Selects all elements that match a CSS selector.
 
 2. How to create and insert a new element into the DOM  
-   - Use `document.createElement("tagName")`.  
+   - Use document.createElement("tagName").  
    - Set its properties or innerHTML.  
-   - Insert it using `appendChild(parent)` or `insertBefore(reference)`.
+   - Insert it using appendChild(parent) or insertBefore(reference).
 
 3. Event Bubbling 
    - Events start at the target element and bubble up to parent elements.  
@@ -55,5 +53,5 @@ This project is a web application for emergency hotline services. Users can like
    - Useful for dynamic elements or reducing multiple listeners.
 
 5. Difference between `preventDefault()` and `stopPropagation()` 
-   - `preventDefault()`: Stops default browser behavior (e.g., form submission).  
+   - `preventDefault()`: Stops default browser behavior .  
    - `stopPropagation()`: Stops event from bubbling to parent elements.
